@@ -15,6 +15,6 @@ NPM packages used
 - randomcolor
 ```
 
-For Live demo, [click here:](https://to--do-react.herokuapp.com/)
+For Live demo, [click here:](https://colour-shades.netlify.app/)
 
 <img src="public/color-shades.png">
