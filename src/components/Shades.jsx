@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Values from "values.js";
 import isColor from "is-color";
 import Shade from "./Shade";
@@ -8,13 +8,11 @@ const Shades = ({ color }) => {
   const [shades, setShades] = useState([]);
   useEffect(() => {
     if (isColor(color)) {
-      createShades();
+      const shades = new Values(color).shades(1);
+      setShades(shades);
     }
   }, [color]);
-  const createShades = () => {
-    const shades = new Values(color).shades(1);
-    setShades(shades);
-  };
+
   const onCopy = () => {
     toast("Color Copied !!", {
       icon: "👏",
