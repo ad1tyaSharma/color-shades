@@ -15,7 +15,7 @@ body {
 }
 .title {
   font-size: 3rem;
-
+  text-align: center;
   font-family: "Dela Gothic One", cursive;
   color: #2c3e50;
 }
@@ -29,7 +29,7 @@ input {
   font-family: "Raleway", sans-serif;
   outline: none;
   margin: 1rem;
-  width: 20vw;
+  width: 40vw;
   padding: 0.5rem 0.8rem;
   font-size: 1.2rem;
   border-top-left-radius: 5px;
@@ -64,5 +64,45 @@ input:focus {
   100% {
     opacity: 1;
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .title {
+    font-size: 2rem;
+  }
+  input {
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .title {
+    font-size: 2rem;
+  }
+  input {
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .text {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 0.5rem;
   }
 }
