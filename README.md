@@ -23,7 +23,13 @@ To deploy this project run
 - Click to copy 
 - Simple UI
 
-  
+ ## NPM Packages used
+- react
+- react-hot-toast
+- react-copy-to-clipboard
+- values.js
+- is-color
+- randomcolor
 ## Screenshots
 
 ![App Screenshot](public/color-shades.png)
