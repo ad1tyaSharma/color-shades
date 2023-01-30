@@ -5,7 +5,7 @@ This project was built using react and hosted on hereoku.
 You can generate 100 different shades of your desired color
 ## Demo
 
-https://colour-shades.netlify.app
+https://co1orshades.netlify.app/
   
 ## Deployment
 
